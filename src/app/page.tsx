@@ -1,9 +1,16 @@
 import Image from "next/image";
+import CarouselHero from "./components/CarrouselHero";
+import Colection from "./components/Colection";
+import Newsletter from "./components/Newsletter";
+
 
 export default function Home() {
   return (
     <main>
-      <h1>agora vai</h1>
+      {/* <CarouselHero /> */}
+      {/* <ProductCarousel /> */}
+      <Colection />
+      <Newsletter />
     </main>
   );
 }

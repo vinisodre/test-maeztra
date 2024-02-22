@@ -10,6 +10,11 @@ const config = {
 	],
   prefix: "",
   theme: {
+    colors: {
+    'black-mzt': '#353535',
+    'gray-mzt': '#FAFAFA',
+    'orange-mzt': '#FAA500',
+    },
     container: {
       center: true,
       padding: "2rem",

@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Tipbar from "./components/Tipbar";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,13 +20,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="container mx-auto">
-          <Tipbar 
+        <div>
+          {/* <Tipbar 
             text="Acompanhe as melhores promoções disponíveis aqueina Maeztra"
             className="flex justify-center bg-black text-sm py-1 text-white"
             />
-          <Navbar />
+          <Navbar /> */}
             {children}
+          <Footer />
         </div>
       </body>
     </html>
