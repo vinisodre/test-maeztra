@@ -1,4 +1,4 @@
-export default type TipbarProps = {
+export type TipbarProps = {
     text: string,
-    className?: string
-}
+    className?: string,
+};

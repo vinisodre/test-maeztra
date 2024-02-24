@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/carousel"
 import { Button } from "@/components/ui/button";
 import InfoBar from "./InfoBar";
+import Image from "next/image";
 
   const products = [
     {
@@ -87,8 +88,8 @@ export function ProductShelf() {
           <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/5">
             <Card>
                 <CardContent className="flex flex-col max-w-[381px]">
-                  <div className="max-w-[308px] max-h-[381px]">
-                  <img src={item.img} alt={item.alt} />
+                  <div className="relative max-w-[308px] max-h-[381px]">
+                  <Image src={item.img} alt={item.alt} width={308} height={381}/>
                   </div>
                   <div className="flex flex-row gap-2 mt-2 mb-2">
                     <div className="bg-[#DEAC71] w-[27px] h-[27px]"></div>
@@ -104,7 +105,6 @@ export function ProductShelf() {
                   <Button className="bg-orange-mzt">Adicionar</Button>
 
                 </CardContent>
-              
             </Card>
           </CarouselItem>
         ))}
