@@ -28,7 +28,7 @@ const partnersList = [
 
 const Partners = () => {
   return (
-    <div className="mx-auto mb-10 lg:mb-20">
+    <section className="mx-auto mt-10 lg:mt-20">
       <InfoBar
         variant="flex justify-center text-black-mzt font-bold text-2xl mb-6 lg:mb-4 lg:text-[32px]"
         content="Marcas Parceiras"
@@ -53,7 +53,7 @@ const Partners = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

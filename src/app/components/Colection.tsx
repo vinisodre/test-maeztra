@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Colection() {
   return (
-    <section className="sm: flex flex-col px-8 lg:flex-row max-w-screen-2xl justify-between mx-auto lg:px-0">
+    <section className="flex flex-col px-8 lg:flex-row max-w-screen-2xl justify-between mx-auto lg:px-0 mt-6 lg:mt-16">
       <div className="flex flex-col justify-center lg:w-[484px] ">
         <h2 className="sm: mb-6 text-2xl font-bold lg:mb-8">Lorem ipsum</h2>
         <p className="sm: mb-8 mr-8 text-sm lg:hidden">

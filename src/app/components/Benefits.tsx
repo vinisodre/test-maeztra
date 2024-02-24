@@ -33,7 +33,7 @@ const benefitsItemsList = [
 
 const Benefits = () => {
   return (
-    <div className="mx-auto mb-10 lg:mb-20">
+    <section className="mx-auto mt-10 lg:mt-20">
       <InfoBar
         variant="flex justify-center text-black-mzt font-bold text-base mb-6 lg:mb-4 lg:text-2xl"
         content="Por que comprar na Maeztra?"
@@ -65,7 +65,7 @@ const Benefits = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

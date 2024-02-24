@@ -15,6 +15,8 @@ const config = {
     'gray-mzt': '#FAFAFA',
     'orange-mzt': '#FAA500',
     'gray-light':'#EFEFEF',
+    'red':'#E74C3C',
+    'transparent': 'transparent'
     },
     container: {
       center: true,

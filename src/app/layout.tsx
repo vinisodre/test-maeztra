@@ -21,11 +21,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div>
-          {/* <Tipbar 
+          <Tipbar 
             text="Acompanhe as melhores promoções disponíveis aqueina Maeztra"
-            className="flex justify-center bg-black text-sm py-1 text-white"
+            className="flex justify-center bg-black-mzt text-[10px] lg:text-sm py-1 text-[#fff]"
             />
-          <Navbar /> */}
+          <Navbar />
             {children}
           <Footer />
         </div>
